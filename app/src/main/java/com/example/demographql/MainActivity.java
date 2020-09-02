@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 .enqueue(new ApolloCall.Callback<LaunchListQuery.Data>() {
                     @Override
                     public void onResponse(@NotNull Response<LaunchListQuery.Data> response) {
-                        Log.e("Apollo", "Launch site: " + response.getData().launches.launches.get(7));
+                        Log.e("Apollo", "Launch site: " + response.getData().launches.launches.get(1));
                     }
 
                     @Override
